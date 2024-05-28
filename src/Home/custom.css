@@ -1,0 +1,57 @@
+/* Import slick-carousel's default styles and then override them */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Custom styles for slider-1 */
+.slider-1 .slick-prev:before,
+.slider-1 .slick-next:before {
+  color: #989898;
+  /* Arrow color for slider-1 */
+  font-size: 24px;
+  /* Increase arrow size for slider-1 */
+}
+
+.slider-1 .slick-prev,
+.slider-1 .slick-next {
+  z-index: 1;
+  /* Ensure arrows are above other content */
+  top: 50%;
+  /* Center vertically */
+  transform: translateY(-70%);
+}
+
+/* Custom styles for slider-2 */
+.slider-2 .slick-prev:before,
+.slider-2 .slick-next:before {
+  color: #f00;
+  /* Arrow color for slider-2 */
+  font-size: 24px;
+  /* Increase arrow size for slider-2 */
+}
+
+.slider-2 .slick-prev,
+.slider-2 .slick-next {
+  z-index: 1;
+  /* Ensure arrows are above other content */
+  top: 50%;
+  /* Center vertically */
+  transform: translateY(-70%);
+}
+
+/* Custom styles for slider-3 */
+.slider-3 .slick-prev:before,
+.slider-3 .slick-next:before {
+  color: #00f;
+  /* Arrow color for slider-3 */
+  font-size: 24px;
+  /* Increase arrow size for slider-3 */
+}
+
+.slider-3 .slick-prev,
+.slider-3 .slick-next {
+  z-index: 1;
+  /* Ensure arrows are above other content */
+  top: 50%;
+  /* Center vertically */
+  transform: translateY(-70%);
+}
