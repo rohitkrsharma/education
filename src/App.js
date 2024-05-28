@@ -9,6 +9,7 @@ import PhotoGallery from './Home/PhotoGallery'
 import Clients from './Home/Clients'
 import Poster from './Home/Poster'
 import Footer from './Home/Footer'
+import ScrollToTopButton from './Home/ScrollToTop'
 const App = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const App = () => {
       <Clients />
       <Poster />
       <Footer />
+      <ScrollToTopButton />
     </div>
   )
 }
