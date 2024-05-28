@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-wrap items-start justify-between">
         <div className="flex flex-col items-start">
           <a href='#' onClick={scrollToTop}>
-            <img src="/home.svg" alt="Logo" className="w-32 mb-4 cursor-pointer" />
+            <img src="/Home.svg" alt="Logo" className="w-32 mb-4 cursor-pointer" />
           </a>
           <p className="text-lg" style={{ maxWidth: '400px', margin: '0 auto' }}>The culture thus formed should be passed on from generation to generation</p>
           <div className="flex mt-8 flex-wrap items-start">
